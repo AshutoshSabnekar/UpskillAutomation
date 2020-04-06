@@ -46,10 +46,17 @@ public class LoginTests {
 		driver.quit();
 	}
 	@Test
-	public void validLoginTest() {
-		loginPOM.sendUserName("admin");
-		loginPOM.sendPassword("admin@123");
-		loginPOM.clickLoginBtn(); 
-		screenShot.captureScreenShot("First");
+	public void valiteLogin(){
+		Boolean flag = loginPOM.LoginUser("admin","admin@123");
+        
+        if(flag)
+        {
+                System.out.println("login successful");
+        }
+        else
+        {
+                System.out.println("login unsuccessful");
+        }
 	}
+	
 }
