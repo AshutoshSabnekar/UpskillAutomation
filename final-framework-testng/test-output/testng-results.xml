@@ -1,53 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="69052" started-at="2020-04-04T13:49:01Z" finished-at="2020-04-04T13:50:10Z">
+  <suite name="Default suite" duration-ms="25463" started-at="2020-04-09T04:38:26Z" finished-at="2020-04-09T04:38:52Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="69052" started-at="2020-04-04T13:49:01Z" finished-at="2020-04-04T13:50:10Z">
-      <class name="com.training.sanity.tests.DashboardTests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.DashboardTests@ea4a92b]" name="setUpBeforeClass" is-config="true" duration-ms="12" started-at="2020-04-04T19:19:01Z" finished-at="2020-04-04T19:19:01Z">
+    <test name="Default test" duration-ms="25463" started-at="2020-04-09T04:38:26Z" finished-at="2020-04-09T04:38:52Z">
+      <class name="com.training.sanity.tests.Assignment2">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.training.sanity.tests.Assignment2@ea4a92b]" name="beforeClass" is-config="true" duration-ms="24" started-at="2020-04-09T10:08:26Z" finished-at="2020-04-09T10:08:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.DashboardTests@ea4a92b]" name="beforeMethod" is-config="true" duration-ms="13946" started-at="2020-04-04T19:19:01Z" finished-at="2020-04-04T19:19:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="viewOrderHistory()[pri:1, instance:com.training.sanity.tests.DashboardTests@ea4a92b]" name="viewOrderHistory" duration-ms="7378" started-at="2020-04-04T19:19:15Z" finished-at="2020-04-04T19:19:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- viewOrderHistory -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.DashboardTests@ea4a92b]" name="afterMethod" is-config="true" duration-ms="2004" started-at="2020-04-04T19:19:23Z" finished-at="2020-04-04T19:19:25Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.DashboardTests@ea4a92b]" name="beforeMethod" is-config="true" duration-ms="12373" started-at="2020-04-04T19:19:25Z" finished-at="2020-04-04T19:19:37Z">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.Assignment2@ea4a92b]" name="beforeMethod" is-config="true" duration-ms="14398" started-at="2020-04-09T10:08:26Z" finished-at="2020-04-09T10:08:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="editOrderHistory()[pri:2, instance:com.training.sanity.tests.DashboardTests@ea4a92b]" name="editOrderHistory" duration-ms="7802" started-at="2020-04-04T19:19:37Z" finished-at="2020-04-04T19:19:45Z">
+        <test-method status="PASS" signature="addProduct()[pri:3, instance:com.training.sanity.tests.Assignment2@ea4a92b]" name="addProduct" duration-ms="10024" started-at="2020-04-09T10:08:41Z" finished-at="2020-04-09T10:08:51Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- editOrderHistory -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.DashboardTests@ea4a92b]" name="afterMethod" is-config="true" duration-ms="1931" started-at="2020-04-04T19:19:45Z" finished-at="2020-04-04T19:19:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.DashboardTests@ea4a92b]" name="beforeMethod" is-config="true" duration-ms="12479" started-at="2020-04-04T19:19:47Z" finished-at="2020-04-04T19:19:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="editReturnOrder()[pri:3, instance:com.training.sanity.tests.DashboardTests@ea4a92b]" name="editReturnOrder" duration-ms="9098" started-at="2020-04-04T19:19:59Z" finished-at="2020-04-04T19:20:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- editReturnOrder -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.DashboardTests@ea4a92b]" name="afterMethod" is-config="true" duration-ms="2001" started-at="2020-04-04T19:20:08Z" finished-at="2020-04-04T19:20:10Z">
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.Assignment2@ea4a92b]" name="afterMethod" is-config="true" duration-ms="1001" started-at="2020-04-09T10:08:51Z" finished-at="2020-04-09T10:08:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.training.sanity.tests.DashboardTests -->
+      </class> <!-- com.training.sanity.tests.Assignment2 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
