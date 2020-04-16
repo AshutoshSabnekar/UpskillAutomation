@@ -40,15 +40,16 @@ public class ReadExcel {
 			}
 			return arrayExcelData;
 		}
+	
 
-	// Test method, change the path of the .xls file 
-	public static void main(String[] args) {
-		String[][] result = new ReadExcel().getExcelData("C:/Users/Naveen/Desktop/Testing.xls", "Sheet1"); 
+/*	 Test method, change the path of the .xls file 
+	 public static void main(String[] args) {
+		String[][] result = new ReadExcel().getExcelData("C:/Users/AshutoshSabnekar/Desktop/TextInputExcel.xls", "UNF_064"); 
 		
 		for(String [] temp : result){
 			for(String temp1: temp){
 				System.out.println(temp1);
 			}
 		}
-	}
+	}  */
 }

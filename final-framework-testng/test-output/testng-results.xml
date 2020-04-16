@@ -1,29 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="25463" started-at="2020-04-09T04:38:26Z" finished-at="2020-04-09T04:38:52Z">
+  <suite name="Default suite" duration-ms="57977" started-at="2020-04-16T08:18:01Z" finished-at="2020-04-16T08:18:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="25463" started-at="2020-04-09T04:38:26Z" finished-at="2020-04-09T04:38:52Z">
-      <class name="com.training.sanity.tests.Assignment2">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.training.sanity.tests.Assignment2@ea4a92b]" name="beforeClass" is-config="true" duration-ms="24" started-at="2020-04-09T10:08:26Z" finished-at="2020-04-09T10:08:26Z">
+    <test name="Default test" duration-ms="57977" started-at="2020-04-16T08:18:01Z" finished-at="2020-04-16T08:18:59Z">
+      <class name="com.training.sanity.tests.Assignment3">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.training.sanity.tests.Assignment3@47f37ef1]" name="beforeClass" is-config="true" duration-ms="23" started-at="2020-04-16T13:48:01Z" finished-at="2020-04-16T13:48:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.Assignment2@ea4a92b]" name="beforeMethod" is-config="true" duration-ms="14398" started-at="2020-04-09T10:08:26Z" finished-at="2020-04-09T10:08:41Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.Assignment3@47f37ef1]" name="beforeMethod" is-config="true" duration-ms="13962" started-at="2020-04-16T13:48:01Z" finished-at="2020-04-16T13:48:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="addProduct()[pri:3, instance:com.training.sanity.tests.Assignment2@ea4a92b]" name="addProduct" duration-ms="10024" started-at="2020-04-09T10:08:41Z" finished-at="2020-04-09T10:08:51Z">
+        <test-method status="PASS" signature="addProduct1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.training.sanity.tests.Assignment3@47f37ef1]" name="addProduct1" duration-ms="6537" started-at="2020-04-16T13:48:15Z" data-provider="TestData088" finished-at="2020-04-16T13:48:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Premium Member]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Corona]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Virus]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Covid2019@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9848012345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ChinaWuhan]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ChinaWuhan]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addProduct -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.Assignment2@ea4a92b]" name="afterMethod" is-config="true" duration-ms="1001" started-at="2020-04-09T10:08:51Z" finished-at="2020-04-09T10:08:52Z">
+        </test-method> <!-- addProduct1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.Assignment3@47f37ef1]" name="afterMethod" is-config="true" duration-ms="1976" started-at="2020-04-16T13:48:21Z" finished-at="2020-04-16T13:48:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-      </class> <!-- com.training.sanity.tests.Assignment2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.Assignment3@47f37ef1]" name="beforeMethod" is-config="true" duration-ms="12057" started-at="2020-04-16T13:48:23Z" finished-at="2020-04-16T13:48:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addProduct1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.training.sanity.tests.Assignment3@47f37ef1]" name="addProduct1" duration-ms="2" started-at="2020-04-16T13:48:35Z" data-provider="TestData088" finished-at="2020-04-16T13:48:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hdhdh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hanta]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Virus]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Havid2020@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9849012345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[ChinaHubei]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ChinaWuhan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.Assignment3@47f37ef1]" name="afterMethod" is-config="true" duration-ms="2527" started-at="2020-04-16T13:48:35Z" finished-at="2020-04-16T13:48:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.training.sanity.tests.Assignment3@47f37ef1]" name="beforeMethod" is-config="true" duration-ms="12245" started-at="2020-04-16T13:48:38Z" finished-at="2020-04-16T13:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="addProduct1(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:com.training.sanity.tests.Assignment3@47f37ef1]" name="addProduct1" duration-ms="6394" started-at="2020-04-16T13:48:50Z" data-provider="TestData088" finished-at="2020-04-16T13:48:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Default]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Spanish]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Flu]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SpanishFlu1920@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[9847012345]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SpainFlu]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[SpainFlu]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.training.sanity.tests.Assignment3@47f37ef1]" name="afterMethod" is-config="true" duration-ms="1973" started-at="2020-04-16T13:48:57Z" finished-at="2020-04-16T13:48:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.training.sanity.tests.Assignment3 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
