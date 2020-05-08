@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="6c6b853b-0668-4f2f-a477-1d766858f4f9" activeEnvironment="Default" name="Assignment2" resourceRoot="" soapui-version="5.5.0" abortOnError="false" runType="SEQUENTIAL" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="b1c19a0c-77fa-4738-9cfb-9fb9e07625fa" wadlVersion="http://wadl.dev.java.net/2009/02" name="http://petstore.swagger.io" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://petstore.swagger.io</con:endpoint></con:endpoints><con:resource name="CreateUserPostMethod" path="/v2/user" id="1248553a-0bce-4196-a514-74ff1c2fc9d4"><con:settings/><con:parameters/><con:method name="V2 1" id="2da4211d-723f-4dfc-83bb-748d9827c5e5" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:user="http://petstore.swagger.io/v2/user">user:Response</con:element></con:representation><con:request name="CreateUserPostMethod" id="78db771e-c8ba-423a-87b5-8a072049e2d2" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request>{
+  "id": 0,
+  "username": "string",
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "password": "string",
+  "phone": "string",
+  "userStatus": 0
+}</con:request><con:originalUri>http://petstore.swagger.io/v2/user</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:request></con:method></con:resource><con:resource name="GetUserName" path="/petstore.swagger.io/v2/user/{username}" id="9a65e822-f74f-4408-b031-ba07f39e0b86"><con:settings/><con:parameters><con:parameter><con:name>username</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="Method 1" id="a3cff707-a463-4dd9-9fb8-54c7c4dcab0c" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/html</con:mediaType><con:status>404</con:status><con:params/><con:element>html</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>text/html</con:mediaType><con:status>200</con:status><con:params/><con:element>html</con:element></con:representation><con:request name="GetUserNameMethod" id="63a3f3f8-3b25-4169-84e6-c637801b596d" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request/><con:originalUri>http://petstore.swagger.io/petstore.swagger.io/v2/user/(username)</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="username" value="ashutosh3" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>username</con:entry></con:parameterOrder></con:request></con:method></con:resource><con:resource name="v2" path="/petstore.swagger.io/v2/user/{username}" id="99447d01-5a18-4796-a09c-ba350f67d4b5"><con:settings/><con:parameters><con:parameter><con:name>username</con:name><con:value>ashutosh2</con:value><con:style>TEMPLATE</con:style><con:default>ashutosh2</con:default></con:parameter></con:parameters><con:method name="Method 1" id="291a0512-866c-43d5-ac88-a3f31a45cef5" method="DELETE"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>text/html</con:mediaType><con:status>405</con:status><con:params/><con:element>html</con:element></con:representation><con:request name="Request 1" id="2c10f5a3-65b0-4509-ac37-2dbc78a146ad" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request/><con:originalUri>http://petstore.swagger.io/petstore.swagger.io/v2/user/ashutosh2</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="username" value="ashutosh2" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>username</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite id="2a7c5112-53f4-43a4-97f9-216cdb4f4ee7" name="Assignment2 TestSuite"><con:description>TestSuite generated for REST Service [http://petstore.swagger.io]</con:description><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase id="9e5e87f5-5a9c-4e4b-8a20-aee8dc74a392" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="CreateUserPostMethod TestCase" searchProperties="true"><con:description>TestCase generated for REST Resource [CreateUserPostMethod] located at [/v2/user]</con:description><con:settings/><con:testStep type="restrequest" name="CreateUserPostMethod" id="82525cc8-c7d1-4f84-849b-6d0e110a1906"><con:settings/><con:config service="http://petstore.swagger.io" resourcePath="/v2/user" methodName="V2 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="CreateUserPostMethod" id="78db771e-c8ba-423a-87b5-8a072049e2d2" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request>{
+  "id": 0,
+  "username": "${Properties#username}",
+  "firstName": "${Properties#firstName}",
+  "lastName": "${Properties#lastName}",
+  "email": "${Properties#email}",
+  "password": "${Properties#password}",
+  "phone": "${Properties#phone}",
+  "userStatus": 0
+}</con:request><con:originalUri>http://petstore.swagger.io/v2/user</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="properties" name="Properties" id="f046c0e2-f408-497c-877e-09aa6bf92581"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>username</con:name><con:value>ashutosh1</con:value></con:property><con:property><con:name>firstName</con:name><con:value>Ashutosh</con:value></con:property><con:property><con:name>lastName</con:name><con:value>Sabnekar</con:value></con:property><con:property><con:name>email</con:name><con:value>ashutoshsabnekar@SOAP.com</con:value></con:property><con:property><con:name>password</con:name><con:value>restFulTesting</con:value></con:property><con:property><con:name>phone</con:name><con:value>9898989898</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" id="dcc2e701-d024-4513-9934-0544415528a4"><con:settings/><con:config><script>import java.io.* 
+import jxl.* 
+import jxl.write.* 
+import java.text.SimpleDateFormat
+import groovy.json.JsonSlurper
+//GET 
+log.info("=======================test started for get customer by Id from Excel=======================") 
+
+
+def file=new File("C:\\Selenium\\API Trainings\\TestInputs.xls"); //97-2013 workbook xls 
+workBook= Workbook.getWorkbook(file) 
+def workSheet=workBook.getSheet(0) 
+rows=workSheet.getRows()	//max row number
+log.info "Total row number - "+rows   
+
+for(def i=0;i&lt;rows;i++) 
+{     
+
+		String a=workSheet.getCell(0,i).getContents()
+		testRunner.testCase.getTestStepByName("Properties").setPropertyValue("username",a)
+		
+		String b=workSheet.getCell(1,i).getContents()
+		testRunner.testCase.getTestStepByName("Properties").setPropertyValue("firstName",b)
+
+		String c=workSheet.getCell(2,i).getContents()
+		testRunner.testCase.getTestStepByName("Properties").setPropertyValue("lastName",c)
+
+		String d=workSheet.getCell(3,i).getContents()
+		testRunner.testCase.getTestStepByName("Properties").setPropertyValue("email",d)
+
+		String e=workSheet.getCell(4,i).getContents()
+		testRunner.testCase.getTestStepByName("Properties").setPropertyValue("password",e)
+
+		String f=workSheet.getCell(5,i).getContents()
+		testRunner.testCase.getTestStepByName("Properties").setPropertyValue("phone",f)
+
+		
+		testRunner.testCase.testSuite.project.testSuites["Assignment2 TestSuite"].testCases["CreateUserPostMethod TestCase"].testSteps["CreateUserPostMethod"].run(testRunner,context)
+		
+		def responseContent = context.testCase.getTestStepByName("CreateUserPostMethod").getPropertyValue("response")
+		slurperResponse = new JsonSlurper().parseText(responseContent)
+
+		log.info slurperResponse.message
+}
+
+</script></con:config></con:testStep><con:testStep type="restrequest" name="GetUserMethod" id="63ad9734-8a9c-4b64-b773-75e73b8fa7d5"><con:settings/><con:config service="http://petstore.swagger.io" resourcePath="/petstore.swagger.io/v2/user/{username}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="GetUserMethod" id="63a3f3f8-3b25-4169-84e6-c637801b596d" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request/><con:originalUri>http://petstore.swagger.io/petstore.swagger.io/v2/user/(username)</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="username" value="${Properties#username}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>username</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="restrequest" name="DeleteUserMethod" id="230dd833-41a9-4b66-981a-7730d02e8713"><con:settings/><con:config service="http://petstore.swagger.io" resourcePath="/petstore.swagger.io/v2/user/{username}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="DeleteUserMethod" id="2c10f5a3-65b0-4509-ac37-2dbc78a146ad" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://petstore.swagger.io</con:endpoint><con:request/><con:originalUri>http://petstore.swagger.io/petstore.swagger.io/v2/user/ashutosh2</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="username" value="ashutosh2" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>username</con:entry></con:parameterOrder></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script_delete" id="494e9080-9da5-429f-8996-aabe97db4a18"><con:settings/><con:config><script>import jxl.* 
+import java.text.SimpleDateFormat
+import groovy.json.JsonSlurper
+
+def file = new File ("C:\\Selenium\\API Trainings\\TestInputs.xls");
+
+workBook= Workbook.getWorkbook(file) 
+def workSheet=workBook.getSheet(0) 
+rows=workSheet.getRows()	//max row number
+columns = workSheet.getColumns()
+log.info "total row number - " + rows
+log.info "total column number - " + columns
+
+for (def i = 0; i &lt; rows; i++)
+
+{	
+
+	String a = workSheet.getCell(0,i).getContents()
+	testRunner.testCase.getTestStepByName("Properties").setPropertyValue("username",a)
+
+	String b = workSheet.getCell(1,i).getContents()
+	testRunner.testCase.getTestStepByName("Properties").setPropertyValue("firstName",b)
+
+	String c = workSheet.getCell(2,i).getContents()
+	testRunner.testCase.getTestStepByName("Properties").setPropertyValue("lastName",c)
+
+	String d = workSheet.getCell(3,i).getContents()
+	testRunner.testCase.getTestStepByName("Properties").setPropertyValue("email",d)
+
+	String e = workSheet.getCell(4,i).getContents()
+	testRunner.testCase.getTestStepByName("Properties").setPropertyValue("password",e)
+
+	String f = workSheet.getCell(5,i).getContents()
+	testRunner.testCase.getTestStepByName("Properties").setPropertyValue("phone",f)
+
+
+	testRunner.testCase.testSuite.project.testSuites["Assignment2 TestSuite"].testCases["CreateUserPostMethod TestCase"].testSteps["CreateUserPostMethod"].run(testRunner,context)
+
+	def responseContent = context.testCase.getTestStepByName("CreateUserPostMethod").getPropertyValue("response")
+	slurperResponse = new JsonSlurper().parseText(responseContent)
+
+	log.info slurperResponse.message
+
+	testRunner.testCase.testSuite.project.testSuites["Assignment2 TestSuite"].testCases["CreateUserPostMethod TestCase"].testSteps["GetUserMethod"].run(testRunner,context)
+
+	def responseContentforGet = context.testCase.getTestStepByName("GetUserMethod").getPropertyValue("response")
+	getResponse = new JsonSlurper().parseText(responseContentforGet)
+
+
+	testRunner.testCase.testSuite.project.testSuites["Assignment2 TestSuite"].testCases["CreateUserPostMethod TestCase"].testSteps["DeleteUserMethod"].run(testRunner,context)
+}</script></con:config></con:testStep><con:properties/></con:testCase><con:properties/></con:testSuite><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
